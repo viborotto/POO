@@ -46,16 +46,45 @@ public class Tripe {
     }
 
     public void Altura(Integer novaAltura){
+        this.alturaAtual = novaAltura;
+        System.out.println("A nova altura eh: "+ novaAltura);
+    }
+
+    public void dobrar(){
+        if(this.dobrado){
+            System.out.println("Ja esta dobrado");
+        } else{
+            this.dobrado = true;
+            System.out.println("O tripe esta dobrado!");
+        }
+    }
+
+    public void desdobrar(){
+        if(this.dobrado){
+            this.dobrado=false;
+            System.out.println("O tripe foi desdobrado");
+        } else {
+            System.out.println("Ja foi desdobrado");
+        }
+    }
+        //deixar pronto para guardar : Altura e dobrado
+    public void guardar(){
+        this.dobrado = true;
+        alturaAtual = alturaMinima;
+        System.out.println("O tripe esta dobrado e com altura minima");
+    }
+
+    public void prontoParaGuardar(){
+        if((this.dobrado)&&(alturaAtual==alturaMinima)){
+            System.out.println("O Tripe esta pronto para ser guardado");
+        } else {
+            System.out.println("O Tripe NAO pode ser guardado, verifique se esta com altura minima");
+        }
+    }
+
+    public void usar(){
 
     }
 
-    public boolean dobrar(){
-        System.out.println("Tripé dobrado");
-        return true;
-    }
-    public boolean desdobrar(){
-        System.out.println("Tripe desdobrado");
-        return true;
-    }
 
 }
