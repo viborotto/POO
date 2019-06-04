@@ -38,16 +38,16 @@ public class Conta {
         this.saldo = this.saldo + quantiaDinheiro;
         System.out.println(this.numConta+" "+this.titular.getNome());
         System.out.println("Deposito de R$"+ quantiaDinheiro + " feito com sucesso");
-        System.out.println("Seu saldo eh R$"+ this.saldo + " reais");
+        System.out.println("Seu saldo eh R$"+ saldo + " reais");
     }
 
     public void saque(double quantiaDinheiro){
-        if(quantiaDinheiro>saldo){
-            System.out.println("Saldo insuficiente");
-        }else {
+        if(quantiaDinheiro>=this.saldo){
+            System.out.println("Saldo insuficiente: "+ saldo);
+        } else {
             this.saldo = this.saldo - quantiaDinheiro;
             System.out.println("Saque de R$" + quantiaDinheiro + " feito com sucesso");
-            System.out.println("Seu saldo apos o saque eh R$" + this.saldo + " reais");
+            System.out.println("Seu saldo apos o saque eh R$" + saldo + " reais");
         }
     }
 

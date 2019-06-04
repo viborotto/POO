@@ -59,7 +59,7 @@ public class JogadorDeFutebol {
         this.energia = this.energia - 5;
         this.alegria = this.alegria + 10;
         this.gols = this.gols + 1;
-        System.out.println("GOOOOOL!");
+        System.out.println("GOOOOL!");
     }
 
     public void correr(){
