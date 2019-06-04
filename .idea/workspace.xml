@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05315c1-5a36-4594-9e47-ddea06bcecb2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/SessaoDeTreinamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SessaoDeTreinamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex3_4/Atleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3_4/Atleta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex3_4/Prova.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3_4/Prova.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,29 +15,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file leaf-file-name="Tripe.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ex3_4/Tripe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="120" selection-start-line="10" selection-start-column="120" selection-end-line="10" selection-end-column="120" />
+            <state relative-caret-position="289">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+              <folding>
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JogadorDeFutebol.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JogadorDeFutebol.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SessaoDeTreinamento.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SessaoDeTreinamento.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SessaoDeTreinamento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="357">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -60,12 +70,14 @@
         <option value="$PROJECT_DIR$/src/Cliente.java" />
         <option value="$PROJECT_DIR$/src/Exercicio1.java" />
         <option value="$PROJECT_DIR$/src/Exercicio2.java" />
-        <option value="$PROJECT_DIR$/src/Ex3_4/Atleta.java" />
-        <option value="$PROJECT_DIR$/src/Ex3_4/Prova.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Conta.java" />
         <option value="$PROJECT_DIR$/src/JogadorDeFutebol.java" />
         <option value="$PROJECT_DIR$/src/SessaoDeTreinamento.java" />
+        <option value="$PROJECT_DIR$/src/Ex3_4/Atleta.java" />
+        <option value="$PROJECT_DIR$/src/Ex3_4/Exercicio3.java" />
+        <option value="$PROJECT_DIR$/src/Ex3_4/Prova.java" />
+        <option value="$PROJECT_DIR$/src/Ex3_4/Tripe.java" />
       </list>
     </option>
   </component>
@@ -81,6 +93,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,7 +117,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,10 +135,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercicio2">
+  <component name="RunManager" selected="Application.Exercicio3">
     <configuration name="Exercicio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicio2" />
       <module name="exerciciosPOO" />
+    </configuration>
+    <configuration name="Exercicio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex3_4.Exercicio3" />
+      <module name="exerciciosPOO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex3_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -138,9 +160,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Exercicio2" />
+      <item itemvalue="Application.Exercicio3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercicio3" />
         <item itemvalue="Application.Exercicio2" />
         <item itemvalue="Application.Main" />
       </list>
@@ -171,24 +195,24 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -200,6 +224,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JogadorDeFutebol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SessaoDeTreinamento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -263,37 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exercicio2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ex3_4/Prova.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding>
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ex3_4/Atleta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Exercicio1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -318,21 +332,98 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="120" selection-start-line="10" selection-start-column="120" selection-end-line="10" selection-end-column="120" />
+          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ex3_4/Exercicio3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exercicio2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ex3_4/Prova.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ex3_4/Atleta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JogadorDeFutebol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="496">
           <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SessaoDeTreinamento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="357">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ex3_4/Tripe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

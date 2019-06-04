@@ -27,8 +27,14 @@ public class Prova {
     }
 
     //metodo Pode Realizar
-    public void podeRealizar(Atleta atleta){
-
+    public boolean podeRealizar(Atleta atleta){
+        if((atleta.getNivel()>=this.dificuldade)&&(atleta.getEnergia()>=this.energiaNecessaria)){//tambem precisa de energia suficiente
+            System.out.println("O Atleta pode realizar a prova!");
+            return true;
+        }else{
+            System.out.println("O Atleta NAO pode realizar a prova!");
+            return false;
+        }
     }
 
 }
