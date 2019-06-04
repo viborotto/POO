@@ -1,16 +1,18 @@
+
+
 public class SessaoDeTreinamento {
 
-    private JogadorDeFutebol experiencia;
+    private int experiencia;
 
-    public JogadorDeFutebol getExperiencia() {
+    public int getExperiencia() {
         return experiencia;
     }
 
-    public void setExperiencia(JogadorDeFutebol experiencia) {
+    public void setExperiencia(int experiencia) {
         this.experiencia = experiencia;
     }
 
-    public SessaoDeTreinamento(JogadorDeFutebol experiencia) {
+    public SessaoDeTreinamento(int experiencia) {
         this.experiencia = experiencia;
     }
 
@@ -18,9 +20,9 @@ public class SessaoDeTreinamento {
         jogadorDeFutebol.correr();
         jogadorDeFutebol.fazerGol();
         jogadorDeFutebol.correr();
-        System.out.println("A experiencia inicial: "+ this.experiencia);
-        this.experiencia = this.experiencia + 1;
-        System.out.println("A experiencia final: "+ this.experiencia);
+        System.out.println("A experiencia inicial: "+ jogadorDeFutebol.getExperiencia());
+        jogadorDeFutebol.setExperiencia(jogadorDeFutebol.getExperiencia()+ experiencia);
+        System.out.println("A experiencia final: "+ jogadorDeFutebol.getExperiencia());
     }
 
 }

@@ -57,7 +57,7 @@ public class JogadorDeFutebol {
     //Metodo fazer gol
     public void fazerGol(){
         this.energia = this.energia - 5;
-        this alegria = this.alegria + 10;
+        this.alegria = this.alegria + 10;
         this.gols = this.gols + 1;
         System.out.println("GOOOOOL!");
     }

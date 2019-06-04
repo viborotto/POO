@@ -9,10 +9,11 @@ public class Main {
 //
 //        conta1.deposito(1000.00);
         JogadorDeFutebol jogador1 = new JogadorDeFutebol("Neymar", 10, 10, 0, 5);
+        SessaoDeTreinamento sessao = new SessaoDeTreinamento(10);
+//        jogador1.fazerGol();
+//        jogador1.correr();
 
-        jogador1.fazerGol();
-        jogador1.correr();
-        jogador1.treinarA();
+        sessao.treinarA(jogador1);
 
     }
 }
