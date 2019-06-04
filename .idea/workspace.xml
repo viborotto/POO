@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05315c1-5a36-4594-9e47-ddea06bcecb2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex3_4/Atleta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex3_4/Prova.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JogadorDeFutebol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JogadorDeFutebol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SessaoDeTreinamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SessaoDeTreinamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex3_4/Atleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3_4/Atleta.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +16,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Atleta.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Atleta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ex3_4/Atleta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Prova.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ex3_4/Prova.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+              <folding>
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,6 +67,8 @@
         <option value="$PROJECT_DIR$/src/Exercicio2.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/SessaoDeTreinamento.java" />
+        <option value="$PROJECT_DIR$/src/Ex3_4/Atleta.java" />
+        <option value="$PROJECT_DIR$/src/Ex3_4/Prova.java" />
       </list>
     </option>
   </component>
@@ -79,6 +95,12 @@
               <item name="POO" type="b2602c69:ProjectViewProjectNode" />
               <item name="POO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex3_4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,8 +313,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ex3_4/Atleta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ex3_4/Prova.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
