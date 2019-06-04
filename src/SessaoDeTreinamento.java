@@ -21,7 +21,7 @@ public class SessaoDeTreinamento {
         jogador.fazerGol();
         jogador.correr();
         System.out.println("A experiencia inicial: "+ jogador.getExperiencia());
-        jogador.setExperiencia(jogador.getExperiencia()+ experiencia);
+        jogador.setExperiencia(jogador.getExperiencia()+ this.experiencia);
         System.out.println("A experiencia final: "+ jogador.getExperiencia());
     }
 
