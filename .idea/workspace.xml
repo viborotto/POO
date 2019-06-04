@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05315c1-5a36-4594-9e47-ddea06bcecb2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex3_4/Exercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3_4/Exercicio4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex3_4/Tripe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3_4/Tripe.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,8 +19,8 @@
       <file leaf-file-name="Tripe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ex3_4/Tripe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="697">
+              <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
               <folding>
                 <element signature="e#196#197#0" expanded="true" />
                 <element signature="e#226#227#0" expanded="true" />
@@ -44,8 +46,8 @@
       <file leaf-file-name="Exercicio4.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Ex3_4/Exercicio4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -135,13 +137,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercicio3">
+  <component name="RunManager" selected="Application.Exercicio4">
     <configuration name="Exercicio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicio2" />
       <module name="exerciciosPOO" />
     </configuration>
     <configuration name="Exercicio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex3_4.Exercicio3" />
+      <module name="exerciciosPOO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex3_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Exercicio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex3_4.Exercicio4" />
       <module name="exerciciosPOO" />
       <extension name="coverage">
         <pattern>
@@ -161,9 +173,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Exercicio2" />
       <item itemvalue="Application.Exercicio3" />
+      <item itemvalue="Application.Exercicio4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercicio4" />
         <item itemvalue="Application.Exercicio3" />
         <item itemvalue="Application.Exercicio2" />
         <item itemvalue="Application.Main" />
@@ -220,7 +234,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Ex3_4/Exercicio4.java</url>
+          <line>4</line>
+          <properties class="Ex3_4.Exercicio4" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -404,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ex3_4/Tripe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="697">
+          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
           <folding>
             <element signature="e#196#197#0" expanded="true" />
             <element signature="e#226#227#0" expanded="true" />
@@ -429,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ex3_4/Exercicio4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

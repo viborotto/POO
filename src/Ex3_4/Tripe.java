@@ -82,9 +82,20 @@ public class Tripe {
         }
     }
 
+    //==================================================================================================================
     public void usar(){
-
+        this.dobrado = false;
+        alturaAtual = alturaMaxima/2;
+        System.out.println("O tripé está desdobrado e em pé");
     }
 
+    public void prontoParaUsar(){
+        if (this.dobrado = false && alturaAtual >= alturaMaxima/2){
+            System.out.println("O tripé está pronto para usar!");
+        } else {
+            System.out.println("O tripé não está pronto para usar, verifique se está desdobrado e com altura máxima");
+        }
+    }
+    //parte 9
 
 }
