@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d05315c1-5a36-4594-9e47-ddea06bcecb2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex3_4/Exercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3_4/Exercicio3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex3_4/Exercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3_4/Exercicio4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex3_4/Tripe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3_4/Tripe.java" afterDir="false" />
-    </list>
+    <list default="true" id="d05315c1-5a36-4594-9e47-ddea06bcecb2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
