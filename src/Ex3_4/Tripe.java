@@ -1,5 +1,7 @@
 package Ex3_4;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 public class Tripe {
     private boolean dobrado;
     private double alturaMinima;
@@ -45,7 +47,7 @@ public class Tripe {
         this.alturaAtual = alturaAtual;
     }
 
-    public void Altura(Integer novaAltura){
+    public void definirAltura(Integer novaAltura){ //Integer é um objeto e a diferença de int é que pode ser NULL
         this.alturaAtual = novaAltura;
         System.out.println("A nova altura eh: "+ novaAltura);
     }
@@ -75,27 +77,31 @@ public class Tripe {
     }
 
     public void prontoParaGuardar(){
-        if((this.dobrado)&&(alturaAtual==alturaMinima)){
+        if((this.dobrado)&&(this.alturaAtual == this.alturaMinima)){
             System.out.println("O Tripe esta pronto para ser guardado");
         } else {
             System.out.println("O Tripe NAO pode ser guardado, verifique se esta com altura minima");
         }
     }
 
-    //==================================================================================================================
-    public void usar(){
-        this.dobrado = false;
-        alturaAtual = alturaMaxima/2;
-        System.out.println("O tripé está desdobrado e em pé");
-    }
-
-    public void prontoParaUsar(){
-        if (this.dobrado = false && alturaAtual >= alturaMaxima/2){
+    public boolean usar(){
+        if (this.dobrado = false && this.alturaAtual > this.alturaMaxima/2){
             System.out.println("O tripé está pronto para usar!");
+            return true;
         } else {
             System.out.println("O tripé não está pronto para usar, verifique se está desdobrado e com altura máxima");
+            return false;
         }
     }
-    //parte 9
+
+    public boolean prontoParaUsar(){
+        if (usar()){
+            System.out.println("O tripe esta pronto para usar.");
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 
 }

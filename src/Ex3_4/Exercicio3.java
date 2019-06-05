@@ -10,7 +10,7 @@ public class Exercicio3 {
         Prova prova2 = new Prova(4,6);
         Prova prova3 = new Prova(5,8);
 
-        prova1.podeRealizar(atleta1);
+        prova1.podeRealizar(atleta1);//nao pode ser atleta1.podeRealizar(prova1); porque o metodo é da classe Prova e não Atleta;
         prova2.podeRealizar(atleta1);
         prova3.podeRealizar(atleta1);
 
